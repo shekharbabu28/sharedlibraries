@@ -18,7 +18,4 @@ def Testing(jobname)
   sh "java -jar /root/.jenkins/workspace/${jobname}/testing.jar"
 }
 
-def Devilvery(name)
-{
-  input id: ${name}, message: 'Get approval from Delivery Manager' 
-}
+
