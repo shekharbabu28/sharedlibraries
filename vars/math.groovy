@@ -14,4 +14,8 @@ def sub(x,y)
   echo "subraction of ${x} and ${y} is ${x-y}"
 }
 
+def div(a,b)
+{
+  echo "dicision of ${a} and ${b} is ${a/b)"
+}
 
