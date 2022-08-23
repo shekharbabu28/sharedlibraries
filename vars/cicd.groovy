@@ -18,9 +18,9 @@ def Testing(jobnames)
   sh "java -jar /root/.jenkins/workspace/${jobnames}/testing.jar"
 }
 
-def mail(body,subject,email_id)
+def mail(body,subject,email)
 { 
-  mail bcc: '', body: "${body}", cc: '', from: '', replyTo: '', subject: "${subject}", to: "${email_id}"
+  mail bcc: '', body: "${body}", cc: '', from: '', replyTo: '', subject: "${subject}", to: "${email}"
 }
 
 
